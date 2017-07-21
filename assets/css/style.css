@@ -1,0 +1,54 @@
+/*styling background image */
+body{
+	background-image: url("../images/background.jpg");
+	background-size:cover;
+}
+/*gif images styling*/
+img {
+	width:150px;
+	height:150px;
+	margin:3px;
+	padding: 3px;
+	
+}
+/*header styling*/
+.jumbotron{
+	margin-top:20px;
+	background-image: url("../images/headerImage.jpg");
+}
+/*styling the appending images div*/
+#animals{
+	background-image: url("../images/animals.jpg");
+	float:left;
+
+}
+/*add animal form styling*/
+.form{
+	float:right;
+	background-image: url("../images/animals.jpg");
+}
+#title{
+	font-size: 20px;
+	font-style: italic;
+	color:#800000;
+}
+
+ #animal-input{
+ 	width:250px;
+ }
+ /*styling rating margin*/
+ p{
+ 	margin:10px;
+ }
+ /*button styling*/
+.btn-success{
+ 	margin-top:10px;
+ }
+ /*here images will appear inline*/
+ .animalDiv{
+ 	display:inline-block;
+ }
+ /*giving space to each button*/
+ .btn-primary{
+	margin:10px;
+ }
